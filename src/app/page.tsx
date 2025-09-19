@@ -195,9 +195,11 @@ export default function PromoHomePage() {
             <Button variant="ghost" className="hidden md:inline-flex">
               Sign in
             </Button>
+            {/** REMOVE COMMENT WHEN APP MOVILE IS READY 
             <Button className="bg-blue-600 text-white hover:bg-blue-600/90">
               <Download className="mr-2 h-4 w-4" /> Get the app
             </Button>
+            */}
           </div>
         </Section>
       </nav>
