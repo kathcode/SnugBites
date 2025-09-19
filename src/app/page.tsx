@@ -2,7 +2,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion";
 import {
   Apple,
   Smartphone,
@@ -45,7 +45,7 @@ import Image from "next/image";
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6, ease: "easeOut" },
+  transition: { duration: 0.6, ease: easeOut },
 };
 
 const Section: React.FC<
