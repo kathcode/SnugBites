@@ -38,6 +38,8 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
+import Logo from "../app/logo.png";
+import Image from "next/image";
 
 // --- Helpers ---
 const fadeUp = {
@@ -74,8 +76,8 @@ const PhoneMock: React.FC<{ className?: string }> = ({ className }) => (
       <div className="px-4 pt-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-2xl">🍼</span>
-            <div className="text-sm font-semibold">Lil’ Munch</div>
+            <Image src={Logo} width={100} height={100} alt="Logo" />
+            <div className="text-sm font-semibold">SnugBites</div>
           </div>
           <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-100">
             Beta
@@ -157,8 +159,8 @@ export default function PromoHomePage() {
       <nav className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/70 backdrop-blur">
         <Section className="flex h-16 items-center justify-between">
           <a href="#" className="group inline-flex items-center gap-2">
-            <span className="text-xl">🍼</span>
-            <span className="text-lg font-bold tracking-tight">Lil’ Munch</span>
+            <Image src={Logo} width={60} height={60} alt="Logo" />
+            <span className="text-lg font-bold tracking-tight">SnugBites</span>
             <Badge className="ml-1 bg-emerald-100 text-emerald-700 group-hover:bg-emerald-100">
               Beta
             </Badge>
@@ -214,7 +216,7 @@ export default function PromoHomePage() {
             .
           </h1>
           <p className="mt-4 max-w-prose text-pretty text-slate-700">
-            Lil’ Munch helps you log feedings, introduce new foods safely, track
+            SnugBites helps you log feedings, introduce new foods safely, track
             allergens & stools, and share updates with anyone who cares for your
             baby.
           </p>
@@ -612,8 +614,8 @@ export default function PromoHomePage() {
       <footer className="mt-12 border-t bg-white/70">
         <Section className="flex flex-col items-center justify-between gap-4 py-8 text-sm text-slate-600 md:flex-row">
           <div className="flex items-center gap-2">
-            <span className="text-lg">🍼</span>
-            <span className="font-semibold text-slate-800">Lil’ Munch</span>
+            <Image src={Logo} width={500} height={500} alt="Logo" />
+            <span className="font-semibold text-slate-800">SnugBites</span>
             <span className="mx-2">•</span>
             <span>© {new Date().getFullYear()} All rights reserved</span>
           </div>
