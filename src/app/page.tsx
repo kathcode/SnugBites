@@ -614,7 +614,7 @@ export default function PromoHomePage() {
       <footer className="mt-12 border-t bg-white/70">
         <Section className="flex flex-col items-center justify-between gap-4 py-8 text-sm text-slate-600 md:flex-row">
           <div className="flex items-center gap-2">
-            <Image src={Logo} width={500} height={500} alt="Logo" />
+            <Image src={Logo} width={80} height={80} alt="Logo" />
             <span className="font-semibold text-slate-800">SnugBites</span>
             <span className="mx-2">•</span>
             <span>© {new Date().getFullYear()} All rights reserved</span>
