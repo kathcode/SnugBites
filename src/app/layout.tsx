@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SnugBites",
-  description: "Baby log feedings",
+  title: "SnugBitesBaby — Baby Food Tracker for New Parents",
+  description:
+    "SnugBitesBaby makes baby mealtimes stress‑free. Log feeds, introduce new foods safely, track allergens, and share updates with caregivers. Free during beta",
+  keywords:
+    "baby food tracker, baby feeding log, allergen tracking, BLW app, first foods, new parent app",
 };
 
 export default function RootLayout({
